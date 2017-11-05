@@ -216,11 +216,6 @@ public class StartupActivity extends AppCompatActivity implements Listener {
                     Analyse.negative_tweets="";
                     Analyse.positive_tweets="";
                     Analyse.neutral_tweets="";
-
-
-
-
-
                      analyse=new Analyse(StartupActivity.this,key_edit.getText().toString());
 
                     return true;
@@ -238,6 +233,10 @@ public class StartupActivity extends AppCompatActivity implements Listener {
 });
 
     }
+
+
+
+
 
     private void setupViewPager(ViewPager viewPager,ViewPagerAdapter adapter) {
         if (adapter!=null) {

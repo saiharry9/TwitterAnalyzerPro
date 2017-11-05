@@ -37,6 +37,7 @@
         android:drawableStart="@drawable/search"
         android:hint="search"
         android:imeOptions="actionSearch"
+        android:singleLine="true"
         android:textColor="@android:color/black" />
 
     <TextView
